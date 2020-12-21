@@ -4,7 +4,7 @@
 //  last.fm
 //
 //  Created by Dmytro Golub on 01/04/2018.
-//  Copyright © 2018 N/A. All rights reserved.
+//
 //
 
 import UIKit
@@ -12,7 +12,7 @@ import UIKit
 class SearchViewController: UIViewController, SearchViewInput,UISearchBarDelegate {
 
     var output: SearchViewOutput!
-    let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
+    let activityIndicator = UIActivityIndicatorView(style: .medium)
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var tableView: UITableView!
     

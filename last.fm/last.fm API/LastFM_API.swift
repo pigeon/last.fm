@@ -3,7 +3,7 @@
 //  last.fm
 //
 //  Created by Dmytro Golub on 01/04/2018.
-//  Copyright © 2018 Dmytro Golub. All rights reserved.
+//   Dmytro Golub. All rights reserved.
 //
 
 import Foundation
